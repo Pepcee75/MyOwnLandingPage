@@ -1,0 +1,30 @@
+body{
+margin: 0;
+}
+
+.container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+img {
+width: 450px;
+height: 300px;
+margin: 10px;
+margin-top: 10px;
+transition: all 1s;
+}
+
+ img:hover {
+transform: scale(1.1);
+}
+
+h1 {
+font-family: 'Chilanka', cursive;
+font-size: 3em;
+text-align: center;
+border-bottom: 3px solid gold;
+border-right: 3px solid gold;
+width: 400px;
+}
